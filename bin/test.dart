@@ -15,7 +15,7 @@ void main() {
       expect(almostSorted([1, 2]), true);
       expect(almostSorted([1]), true);
     });
-  } on Exception  catch (e) {
+  } on Exception catch (e) {
     print(e);
   }
 }
